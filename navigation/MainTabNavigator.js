@@ -5,10 +5,12 @@ import { AppRegistry } from 'react-native';
 
 import TabBarIcon from 'scranimer/components/TabBarIcon';
 import HomeScreen from 'scranimer/Screens/HomeScreen';
+import AnimeScreen from 'scranimer/Screens/AnimeScreen';
 import SettingsScreen from 'scranimer/Screens/SettingsScreen';
 
 const HomeStack = createStackNavigator({
   Home: HomeScreen,
+  Anime: AnimeScreen
 });
 
 HomeStack.navigationOptions = {
